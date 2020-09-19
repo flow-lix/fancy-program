@@ -41,9 +41,9 @@ public class AideoTest {
         try {
             // 建议在线程中使用该方法
             grabber.start();
-            grabber.setAudioCodec(avcodec.AV_CODEC_ID_MP3);
+//            grabber.setAudioCodec(avcodec.AV_CODEC_ID_MP3);
             System.out.println(grabber.getAudioCodec());
-//            recorder.setAudioCodec(grabber.getAudioCodec());
+            recorder.setAudioCodec(grabber.getAudioCodec());
             System.out.println(recorder.getAudioCodec());
 
             recorder.setVideoCodec(grabber.getVideoCodec());
@@ -51,7 +51,6 @@ public class AideoTest {
             recorder.setImageWidth(grabber.getImageWidth());
             recorder.start();
 
-            recorder.setAudioCodec(grabber.getAudioCodec());
             long t1 = System.currentTimeMillis();
 
             Frame frame = null;
