@@ -1,5 +1,8 @@
 package learn.alg.tree;
 
+/**
+ * 按要求打印二叉树节点
+ */
 public class PrintEdge {
 
     /**
