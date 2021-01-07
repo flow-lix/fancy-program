@@ -4,6 +4,8 @@
  */
 package learn.alg.tree;
 
+import cn.hutool.core.lang.Assert;
+
 /**
  * 后续数组重建二叉搜索树
  */
@@ -13,19 +15,20 @@ public class PosArray {
         PosArray posArray = new PosArray();
         int[] arr = new int[]{2,1,3,6,5,7,4};
 
+        Assert.isTrue(isPosArray(arr));
     }
 
     /**
      * 判断后续数组是不是一个二叉搜索树
      */
-    private boolean isPosArray(int[] arr) {
+    private static boolean isPosArray(int[] arr) {
         if (arr == null || arr.length == 0) {
             return false;
         }
         return isPost(arr, 0, arr.length - 1);
     }
 
-    private boolean isPost(int[] arr, int start, int end) {
+    private static boolean isPost(int[] arr, int start, int end) {
         if (start >= end) {
             return true;
         }
