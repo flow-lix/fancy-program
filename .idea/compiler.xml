@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="fancy-basis" />
-        <module name="fancy-dataStructure" />
+        <module name="fancy-design" />
+        <module name="fancy-basic" />
         <module name="fancy-alg" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fancy-basis" target="1.5" />
+      <module name="fancy-dataStructure" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

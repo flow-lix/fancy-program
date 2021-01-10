@@ -9,3 +9,17 @@ K
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 C
 fancy-basis/pom.xml,b\4\b45cd7619d55b6f8658cf84bffeaa57ee19de610
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+A
+fancy-program.iml,2\8\286d8d99797dce8c59e544a4152f2c930de62cd8
+C
+hs_err_pid11532.log,b\b\bbe02ba013c3532feb8a8fac627384a547d9d420
+C
+hs_err_pid12660.log,c\f\cf7a9b28842aeb85c13ed1931a8ad2c6bb024356
+B
+hs_err_pid3736.log,2\0\20b47920b9c9aea835b258742e379f25dca7799a
+B
+hs_err_pid8604.log,f\1\f1437f8d127ba2c85be323fffe3c67e2f657af1d
+X
+(src/main/java/org/test/cv/AideoTest.java,d\0\d0fd45bba11ddc747cebff7d96426ef433ba5026
