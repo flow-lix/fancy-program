@@ -37,7 +37,7 @@ public class MinPaths {
         queue.add(start);
         Set<String> set = new HashSet<>();
         set.add(start);
-
+        distance.put(start, 0);
         while (!queue.isEmpty()) {
             String cur = queue.poll();
             for (String str : nexts.get(cur)) {
